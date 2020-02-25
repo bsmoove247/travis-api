@@ -49,7 +49,7 @@ gem 'allocation_tracer'
 gem 'jemalloc', git: 'https://github.com/travis-ci/jemalloc-rb'
 
 gem 'redlock'
-gem 'rake', '~> 0.9.2'
+gem 'rake', '~> 12.3.3'
 
 gem 'libhoney'
 gem 'opencensus'
@@ -58,7 +58,7 @@ gem 'opencensus-stackdriver'
 gem 'faraday'
 gem 'faraday_middleware'
 
-gem 'knapsack'
+gem 'knapsack', '>= 1.14.0'
 
 gem 'pg',                     '~> 0.21'
 gem 'composite_primary_keys', '~> 8.0'
